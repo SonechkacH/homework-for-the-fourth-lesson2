@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var tasks = ['Что делать с ошибкой: признать, принять, извлечь урок, забыть.',
+         'Скучать по кому-то — самое прекрасное из всех грустных чувств.', 'Невозможно победить того, кто не сдается.'];
+        function sendMessage1(){
+            alert('Работает. Не трогай!');
+        }
+        function sendMessage2(){
+            for(var i = 0; i<tasks.length; i++){
+                alert(tasks[i]);
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Программка</h3>
+    <p><input value = "Работает?" onclick = "sendMessage1()" type = "button"></p>
+    <p><input value = "Хм..." onclick = "sendMessage2()" type = "button"></p>
+</body>
+</html>
